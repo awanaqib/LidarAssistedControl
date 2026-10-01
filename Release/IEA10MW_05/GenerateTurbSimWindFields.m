@@ -17,7 +17,7 @@ Seed_matrix         = repmat(URef_vector',1,n_Seed)*100+repmat(Seed_vector,n_URe
 
 % Files (should not be changed)
 TurbSimExeFile      = 'TurbSim_x64.exe';
-TurbSimTemplateFile = 'TurbSimInputFileTemplateIEA15MW.inp';
+TurbSimTemplateFile = 'TurbSimInputFileTemplateIEA10MW.inp';
 
 % Generate folder 
 if ~exist('TurbulentWind','dir')
